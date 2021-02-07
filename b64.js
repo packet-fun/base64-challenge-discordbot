@@ -43,7 +43,7 @@ client.on('message', message => {
     
     // string command - resend challenge
     if (message.channel.id === challengechannel && !message.member.roles.cache.some(role => role.name === passrole)) { 
-	if (message.content.includes("!string")) {
+	if (message.content.includes("${prefix}string")) {
             message.reply(getEmbed(message.member));
 	}
     }
