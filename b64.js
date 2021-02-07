@@ -21,7 +21,7 @@ function getEmbed(member) {
 
 client.once('ready', () => {
     console.log('Bot running.');
-    client.user.setActivity('type !string if you lose your challenge');
+    client.user.setActivity('type ${prefix}string if you lose your challenge');
 });
 
 
@@ -41,7 +41,7 @@ client.on('message', message => {
     // check if they sent a challenge
     check_challenge(message)
     
-    // !string command - resend challenge
+    // string command - resend challenge
     if (message.channel.id === challengechannel && !message.member.roles.cache.some(role => role.name === passrole)) { 
 	if (message.content.includes("!string")) {
             message.reply(getEmbed(message.member));
