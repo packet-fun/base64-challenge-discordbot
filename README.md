@@ -10,7 +10,6 @@ This was uploaded for a friend to use, but there's some quick instruction below 
 
 1. `git clone https://github.com/packet-fun/base64-challenge-discordbot`
 2. `npm install discordjs btoa`
-3. Get a token from (discord)[https://discord.com/developers/applications]
-make sure it has the right permissions.. add roles, delete messages, etc
+3. Get a token from [discord](https://discord.com/developers/applications). (make sure it has the right permissions.. add roles, delete messages, etc)
 4. edit config.json and put in the channelID and bot token
 5. run the bot with `pm2 start b64.js` or your preferred method
