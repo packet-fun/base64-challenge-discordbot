@@ -4,6 +4,7 @@ This bot presents new users with a base64 challenge string, they must decode it 
 If it's correct, they receive the member role and can chat elsewhere.
 On close and correct answers, the bot will delete the answer to avoid spoilers.
 
+Make sure that only members and above can view all channels, the only public channel should be the challenge channel.
 I suggest disallowing members to chat in the challege channel, so once it's solved there can't be any futher spam.
 
 This was uploaded for a friend to use, but there's some quick instruction below for anyone else who wants to try it. 
